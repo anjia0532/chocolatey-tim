@@ -6,7 +6,7 @@
     <title>TIM</title>
     <authors>Tencent</authors>
     <owners>Tencent</owners>
-    <iconUrl></iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-tim/master/TIMLogo.png</iconUrl>
     <licenseUrl>http://play.mobile.qq.com/yy/eim/help/serverinfo.html</licenseUrl>
     <projectUrl>http://office.qq.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

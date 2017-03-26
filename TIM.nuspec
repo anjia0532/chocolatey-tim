@@ -12,9 +12,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TIM —— Make team communication and collaboration easier</description>
     <summary>TIM —— Tencent Instant Messaging</summary>
-    <releaseNotes>Release Notes: https://www.jetbrains.com/webstorm/whatsnew/
-    </releaseNotes>
-    <copyright />
+    <releaseNotes />
+    <copyright>Copyright © 1998-2017 Tencent. All Rights Reserved.</copyright>
     <tags>tim tencent im TIM</tags>
     <dependencies>
     </dependencies>

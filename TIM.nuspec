@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tim</id>
+    <version>1.0.5</version>
+    <title>TIM</title>
+    <authors>Tencent</authors>
+    <owners>Tencent</owners>
+    <iconUrl></iconUrl>
+    <licenseUrl>http://play.mobile.qq.com/yy/eim/help/serverinfo.html</licenseUrl>
+    <projectUrl>http://office.qq.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TIM —— Make team communication and collaboration easier</description>
+    <summary>TIM —— Tencent Instant Messaging</summary>
+    <releaseNotes>Release Notes: https://www.jetbrains.com/webstorm/whatsnew/
+    </releaseNotes>
+    <copyright />
+    <tags>tim tencent im TIM</tags>
+    <dependencies>
+    </dependencies>
+    <packageSourceUrl>https://github.com/CN-Zed/chocolatey-tim</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

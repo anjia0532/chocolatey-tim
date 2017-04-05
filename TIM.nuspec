@@ -5,7 +5,7 @@
     <version>1.0.5</version>
     <title>TIM</title>
     <authors>Tencent</authors>
-    <owners>Tencent</owners>
+    <owners>zed</owners>
     <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-tim/master/TIMLogo.png</iconUrl>
     <licenseUrl>http://play.mobile.qq.com/yy/eim/help/serverinfo.html</licenseUrl>
     <projectUrl>http://office.qq.com/</projectUrl>

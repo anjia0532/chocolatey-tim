@@ -4,7 +4,7 @@ $extractionPath = (${env:ProgramFiles(x86)}, ${env:ProgramFiles} -ne $null)[0]
 
 $installDir = Join-Path $extractionPath 'Tencent\TIM'
 
-if (Test-Path ("${installDir}\TIMUninst.exee")) {
+if (Test-Path ("${installDir}\TIMUninst.exe")) {
 	$uninstallExe = (gci "${installDir}\TIMUninst.exe").FullName | sort -Descending | Select -first 1
 
 	$params = @{

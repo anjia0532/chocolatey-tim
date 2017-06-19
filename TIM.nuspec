@@ -14,7 +14,7 @@
     <summary>TIM —— Tencent Instant Messaging</summary>
     <releaseNotes />
     <copyright>Copyright © 1998-2017 Tencent. All Rights Reserved.</copyright>
-    <tags>tim tencent im TIM</tags>
+    <tags>TIM tencent im QQ admin</tags>
     <dependencies>
     </dependencies>
     <packageSourceUrl>https://github.com/CN-Zed/chocolatey-tim</packageSourceUrl>

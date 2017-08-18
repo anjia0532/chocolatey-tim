@@ -1,10 +1,10 @@
 $packageName = 'tim'
 $installerType = 'EXE' 
-$url = 'http://dldir1.qq.com/qqfile/qq/TIM1.1.5/21175/TIM1.1.5.exe'
+$url = 'https://dldir1.qq.com/qqfile/qq/TIM1.2.0/21645/TIM1.2.0.exe'
 $url64 = $url 
 $silentArgs = '-s' 
 $validExitCodes = @(0) 
 $checksumType = 'sha256';
-$checksum = 'e9b61f6ddd6be59cc39528d961103dfac826e7cc94975f76555bbb75ff72b7a3';
+$checksum = '050257304e56c1f31dc639437931f7239d72cea3cbf702b22e8fbf5960c2a594';
 
 Install-ChocolateyPackage $packageName $installerType $silentArgs $url $url64  -validExitCodes $validExitCodes -Checksum64 $checksum -ChecksumType64 $checksumType -ChecksumType "$checksumType" -Checksum $checksum

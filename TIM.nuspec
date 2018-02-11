@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tim</id>
-    <version>2.1.0</version>
+    <version>2.1.5</version>
     <title>TIM</title>
     <authors>Tencent</authors>
     <owners>zed</owners>
@@ -13,7 +13,7 @@
     <description>TIM —— Make team communication and collaboration easier</description>
     <summary>TIM —— Tencent Instant Messaging</summary>
     <releaseNotes />
-    <copyright>Copyright © 1998-2017 Tencent. All Rights Reserved.</copyright>
+    <copyright>Copyright © 1998-2018 Tencent. All Rights Reserved.</copyright>
     <tags>TIM tencent im QQ admin</tags>
     <dependencies>
     </dependencies>

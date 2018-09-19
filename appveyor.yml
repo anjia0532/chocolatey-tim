@@ -18,7 +18,7 @@ init:
 
 install:
   - choco pack
-  - choco push --api-key $env:choco_key
+  - choco push --api-key %choco_key%
 
 artifacts:
   - path: '**\*.nupkg'

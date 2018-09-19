@@ -3,6 +3,7 @@ version: 2.0.{build}
 branches:
   only:
     - master
+    - ci
 
 skip_tags: true
 skip_branch_with_pr: true
@@ -10,6 +11,7 @@ skip_branch_with_pr: true
 environment:
   choco_key:
     secure: thGHMWkNaQFVFcE2DCi3XHW2mgPIWuUVNITbLlzyL1JEGXbdv0kFfOJOLAJbMHLS
+  BUILD_MODE: Script
 
 # image: Visual Studio 2017
 
@@ -18,7 +20,8 @@ init:
 
 install:
   - choco pack
-  - choco push --api-key %choco_key%
+  # - choco push --api-key %choco_key%
+  # TODO: open in next version update
 
 artifacts:
   - path: '**\*.nupkg'

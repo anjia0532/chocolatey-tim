@@ -1,0 +1,20 @@
+version: 2.0.{build}
+
+branches:
+  only:
+    - master
+
+skip_tags: true
+skip_branch_with_pr: true
+
+# image: Visual Studio 2017
+
+init:
+  - git config --global core.autocrlf input
+
+install:
+  - choco pack
+  - choco push --api-key {CHOCO_KEY}
+
+artifacts:
+  - path: '**\*.nupkg'

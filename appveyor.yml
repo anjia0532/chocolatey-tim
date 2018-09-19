@@ -18,7 +18,7 @@ environment:
 init:
   - git config --global core.autocrlf input
 
-install:
+build_script:
   - choco pack
   # - choco push --api-key %choco_key%
   # TODO: open in next version update

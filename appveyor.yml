@@ -3,7 +3,6 @@ version: 2.0.{build}
 branches:
   only:
     - master
-    - ci
 
 skip_tags: true
 skip_branch_with_pr: true
@@ -15,7 +14,7 @@ init:
 
 install:
   - choco pack
-  - choco push
+  - choco push --api-key {CHOCO_KEY}
 
 artifacts:
   - path: '**\*.nupkg'

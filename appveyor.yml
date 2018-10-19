@@ -1,4 +1,4 @@
-version: 2.0.{build}
+version: 2.3.0.{build}
 
 branches:
   only:
@@ -10,13 +10,14 @@ skip_branch_with_pr: true
 environment:
   choco_key:
     secure: thGHMWkNaQFVFcE2DCi3XHW2mgPIWuUVNITbLlzyL1JEGXbdv0kFfOJOLAJbMHLS
+  BUILD_MODE: Script
 
 # image: Visual Studio 2017
 
 init:
   - git config --global core.autocrlf input
 
-install:
+build_script:
   - choco pack
   - choco push --api-key %choco_key%
 

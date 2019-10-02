@@ -1,3 +1,3 @@
 # Chocolatey-TIM
 
-[](https://github.com/ZeddG93/chocolatey-tim/workflows/workflow.yml/badge.svg)
+![](https://github.com/ZeddG93/chocolatey-tim/workflows/CI/badge.svg)

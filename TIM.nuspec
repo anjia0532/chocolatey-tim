@@ -2,18 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tim</id>
-    <version>2.3.2</version>
+    <version>2.3.2.21173</version>
     <title>TIM</title>
     <authors>Tencent</authors>
     <owners>zed</owners>
     <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-tim/master/TIMLogo.png</iconUrl>
     <licenseUrl>http://play.mobile.qq.com/yy/eim/help/serverinfo.html</licenseUrl>
-    <projectUrl>http://office.qq.com/</projectUrl>
+    <projectUrl>https://tim.qq.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TIM —— Make team communication and collaboration easier</description>
     <summary>TIM —— Tencent Instant Messaging</summary>
     <releaseNotes />
-    <copyright>Copyright © 1998-2018 Tencent. All Rights Reserved.</copyright>
+    <copyright>Copyright © 1998-2019 Tencent. All Rights Reserved.</copyright>
     <tags>TIM tencent im QQ admin</tags>
     <dependencies>
     </dependencies>

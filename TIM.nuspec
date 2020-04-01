@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tim</id>
-    <version>2.3.2.21173</version>
+    <version>3.0.0.21315</version>
     <title>TIM</title>
     <authors>Tencent</authors>
     <owners>zed</owners>

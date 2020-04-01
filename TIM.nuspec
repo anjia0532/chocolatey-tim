@@ -6,7 +6,7 @@
     <title>TIM</title>
     <authors>Tencent</authors>
     <owners>zed</owners>
-    <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-tim/master/TIMLogo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/ZeddG93/chocolatey-tim/master/TIMLogo.png</iconUrl>
     <licenseUrl>http://play.mobile.qq.com/yy/eim/help/serverinfo.html</licenseUrl>
     <projectUrl>https://tim.qq.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
     <tags>TIM tencent im QQ admin</tags>
     <dependencies>
     </dependencies>
-    <packageSourceUrl>https://github.com/CN-Zed/chocolatey-tim</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ZeddG93/chocolatey-tim</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
